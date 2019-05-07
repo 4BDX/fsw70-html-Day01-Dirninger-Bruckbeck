@@ -6,15 +6,24 @@
 	<body>
 	<h3>Contact Form</h3>	
 	
-	<form>
-	<p style="color:red;">First Name:</p><br>
+	<form action="action_page-php">
+	<p>First Name:</p>
 	<input type="text" name="firstname" placeholder="First Name"><br>
 	<input type="text" name="lastname" placeholder="Last Name"><br>
+
 	<br/>
 	<br/>
-	<br/>
+	Gender:<br/>
 	<input type="radio" name="gender" value="male" checked>Male<br/>
 	<input type="radio" name="gender" value="female" >Female<br>
+	<br/>
+
+Leave a comment:<br/>
+<textarea name="message" rows="10" cols="20"></textarea>
+
+<br/>
+<br/>
+<input type="submit" value="Submit your data">
 
 	</form>
 
